@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type=""image/x-icon"">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip-Calculator</title>
+  </head>
+  <body>
+    <div>
+      <h1>Calculate Your Tip With Ease!</h1>
+    </div>
+    <div id="input-container">
+      <form action="">
+        <label class="label" for="bill-total">Total Bill:</label>
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter your bill total"
+          id="bill-total"
+        />
+        <br />
+        <br />
+        <label class="label" for="tip-percent">Tip Percentage:</label>
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter your tip percentage"
+          id="tip-percent"
+        />
+      </form>
+    </div>
+    <br />
+    <button id="btn" onclick="calTip()">Get Tip Amount</button>
+    <br />
+    <br />
+    <span id="tip-amt">Tip Amount: </span>
+    <h2>Put A 😊 On Your Server's Face!</h3>
+  </body>
+  <br>
+  <br>
+  <footer>
+    <p>Copyright &#169; 2024 Victor Oshiomah. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</html> 
